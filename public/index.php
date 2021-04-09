@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
+use App\Wcs\Hello;
 
 $talk= new Hello();
-$talk->talk();
-echo $talk;
+echo $talk->talk();
