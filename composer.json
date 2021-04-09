@@ -1,0 +1,16 @@
+{
+    "name": "alexandre/autoload",
+    "description":"Quest",
+    "authors": [
+        {
+            "name": "Alexandre Morlat",
+            "email": "alexandre-morlat_student2021@wilder.school"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
